@@ -189,8 +189,8 @@ main {
     flex-wrap: wrap;
 }
 
-.contactbtncontainer button, 
-.cvdownloaderbtncontainer button {
+.contactbtncontainer button 
+{
     height: 44px;
     min-width: 180px;
     padding: 0 20px;
@@ -204,6 +204,28 @@ main {
     transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
+/* Update your selector to target both buttons and links */
+.btn-primary, 
+a.btn-primary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 24px;
+    background-color: #000c27ee; /* your cyan/accent color */
+    color: #ffffff;
+    border-radius: 8px;
+    text-decoration: none; /* Removes underline from <a> tag */
+    font-weight: 600;
+    transition: all 0.3s ease;
+    
+}
+
+/* Ensure hover states match */
+.btn-primary:hover, 
+a.btn-primary:hover {
+    background-color: #172852;
+    transform: translateY(-2px);
+}
 .contactbtncontainer button {
     background-color: rgb(27, 82, 107);
     color: white;
