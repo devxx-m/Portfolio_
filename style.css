@@ -211,20 +211,20 @@ a.btn-primary {
     align-items: center;
     justify-content: center;
     padding: 12px 24px;
-    background-color: #000c27ee; /* your cyan/accent color */
-    color: #ffffff;
+    background-color: rgb(233, 233, 233);
+    color: #1e293b;
     border-radius: 8px;
     text-decoration: none; /* Removes underline from <a> tag */
     font-weight: 600;
     transition: all 0.3s ease;
-    
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
 /* Ensure hover states match */
 .btn-primary:hover, 
 a.btn-primary:hover {
-    background-color: #172852;
-    transform: translateY(-2px);
+    background-color: #c5c5c5;
+    transform: translateY(-3px);
 }
 .contactbtncontainer button {
     background-color: rgb(27, 82, 107);
